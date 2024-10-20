@@ -1,2 +1,32 @@
 
 /* Your CSS Code here. */
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Grid Container */
+.holder {
+    display: grid;
+    width: 200px;
+    height: 200px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px; /* Optional for spacing between grid items */
+    background-color: #f3f3f3;
+}
+
+/* Grid Items */
+.item {
+    background-color: #8ab4f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: white;
+}
